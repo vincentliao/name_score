@@ -1,5 +1,7 @@
-
+import sys
 import re
+
+name = sys.argv[1] if len(sys.argv) > 1 else "names.txt" # Put on the default file "names.txt".
 
 expr = re.compile(r'"([A-Z]+)"')
 name_list = expr.findall(open('names.txt', 'r').read())
