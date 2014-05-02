@@ -1,3 +1,8 @@
+#! /usr/bin/env python
+# description : Euler project, problem 22: name score, http://projecteuler.net/problem=22
+# author      : vincentliao
+# date        : 20140502
+
 import sys
 import re
 
